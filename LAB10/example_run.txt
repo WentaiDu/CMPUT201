@@ -1,0 +1,22 @@
+>./operation add 2 3.5
+addition for 2, 3.5 is 5.500000
+>./operation add 2 3
+addition for 2, 3 is 5
+>./operation add 2 3a
+Usage: ./operation [add|sub|mul|div|mod|pow|log] Num Num
+>./operation div 2 5
+division for 2, 5 is 0
+>./operation div 2 5.0
+division for 2, 5.0 is 0.400000
+>./operation div 2 0
+division cannot be performed for 2, 0
+>./operation div 2 0.0
+division cannot be performed for 2, 0.0
+>./operation pow -0.9 1.2
+power for -0.9, 1.2 is -nan
+>./operation log 2 -5
+logarithm for 2, -5 is nan
+>./operation log 2 8
+logarithm for 2, 8 is 3.000000
+>./operation log 2 (null)
+Usage: ./operation [add|sub|mul|div|mod|pow|log Num Num]
